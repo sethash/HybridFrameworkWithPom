@@ -1,0 +1,19 @@
+<suite name = "Free CRM Application test Automation test suite">
+
+<listners>
+<listner>
+class-name="com.qa.ExtentReportListner.ExtentReporterNG"
+
+</listner>
+
+</listners>
+ <test name = "Free CRM App test cases">
+   <classes>
+    <class name="com.crm.qa.testcases.ContactsPageTest"></class>
+    <class name="com.crm.qa.testcases.HomePageTest"></class>
+    <class name="com.crm.qa.testcases.LoginPageTest"></class>
+   
+   </classes>
+ 
+ </test>
+</suite>
